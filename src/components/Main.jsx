@@ -2,6 +2,7 @@ import React from 'react';
 import Constants from 'expo-constants';
 import { Text, StyleSheet, View } from 'react-native';
 import HelloWorld from './world';
+import RepositoryList from './RepositoryList';
 
 const styles = StyleSheet.create({
     container: {
@@ -18,6 +19,7 @@ const Main = () => {
         <View style={styles.container}>
             <Text>Rate Repository Application</Text>
             <HelloWorld/>
+            <RepositoryList/>
         </View>
     );
 };
