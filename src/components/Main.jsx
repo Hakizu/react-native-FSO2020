@@ -1,6 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet, View } from 'react-native';
-import HelloWorld from './world';
+import { StyleSheet, View } from 'react-native';
 import RepositoryList from './RepositoryList';
 import AppBar from './AppBar';
 
@@ -10,6 +9,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexGrow: 1,
         flexShrink: 1,
+        backgroundColor: '#e1e4e8',
     },
 });
 
@@ -18,8 +18,6 @@ const Main = () => {
         <>
             <AppBar/>
             <View style={styles.container}>
-                <Text>Rate Repository Application</Text>
-                <HelloWorld/>
                 <RepositoryList/>
             </View>
         </>

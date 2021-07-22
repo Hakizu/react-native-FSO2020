@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
 import theme from '../theme';
-import AppBarTab from './AppBarTab';
+import AppBarTab from './subComponents/AppBarTab';
 
 const AppBar = () => {
     return (
-        <View style={theme.Appbar}>
+        <View style={theme.appBar}>
             <AppBarTab text={'Repositories'}/>
         </View>
     );

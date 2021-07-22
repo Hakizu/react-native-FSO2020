@@ -17,9 +17,16 @@ const theme = {
         normal: '400',
         bold: '700',
     },
-    Appbar: {
+    appBar: {
+      padding: 15,
       paddingTop: Constants.statusBarHeight,
-      backgroundColor: 'lightgrey',
+      backgroundColor: '#D3D3D3',
+    },
+    image: {
+      width: 50,
+      height: 50,
+      margin: 15,
+      marginTop: 0,
     }
 };
 
