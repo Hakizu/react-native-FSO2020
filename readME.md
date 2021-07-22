@@ -1,0 +1,1 @@
+Exercises from [FullStack Open 2021](https://fullstackopen.com/en/part10) in React native on iOs.
