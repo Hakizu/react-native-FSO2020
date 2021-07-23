@@ -1,12 +1,15 @@
 import React from 'react';
+import { NativeRouter } from 'react-router-native';
 import Main from './src/components/Main';
 
 const App = () => {
   return (
-    <Main/>
+    <NativeRouter>
+      <Main/>
+    </NativeRouter>
   );
 };
 
 export default App;
 //$ open "rndebugger://set-debugger-loc?host=localhost&port=XXXX"
-//set port for debugger
+//set port & open debugger

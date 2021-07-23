@@ -7,8 +7,6 @@ import AppBar from './AppBar';
 
 const styles = StyleSheet.create({
     container: {
-        alignItems: 'center',
-        justifyContent: 'center',
         flexGrow: 1,
         flexShrink: 1,
         backgroundColor: '#e1e4e8',
@@ -19,9 +17,12 @@ const Main = () => {
     return (
         <View style={styles.container}>
             <AppBar/>
-            <View style={styles.container}>
-                <RepositoryList/>
-            </View>
+            <Switch>
+                <Route path='/' exact>
+                    <RepositoryList/>
+                </Route>
+                <Redirect to="/" />
+            </Switch>
         </View>
     );
 };
