@@ -9,12 +9,19 @@ const styles = StyleSheet.create({
         borderRadius: 3,
         padding: 5,
         textAlign: 'center',
+    },
+    error: {
+        borderColor: '#d73a4a',
     }
 });
 
 //eslint-disable-next-line
 const TextInput = ({ style, error, ...props }) => {
-  const textInputStyle = [styles.input, style];
+  const textInputStyle = [
+        styles.input,
+        error && styles.error,
+        style
+    ];
 
   return <NativeTextInput style={textInputStyle} {...props} />;
 };

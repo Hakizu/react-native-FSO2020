@@ -2,7 +2,7 @@ import React from 'react';
 import { Pressable, View, StyleSheet } from 'react-native';
 
 import FormikTextInput from '../FormikTextInput';
-import Text from './Text';
+import Text from '../Text';
 
 const styles = StyleSheet.create({
     SignIn: {

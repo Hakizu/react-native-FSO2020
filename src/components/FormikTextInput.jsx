@@ -8,6 +8,8 @@ import Text from './Text';
 const styles = StyleSheet.create({
     erorrText: {
         marginTop: 5,
+        color: '#d73a4a',
+        textAlign: 'center',
     },
 });
 
