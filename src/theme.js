@@ -21,8 +21,6 @@ const theme = {
       padding: 15,
       paddingTop: Constants.statusBarHeight,
       backgroundColor: '#D3D3D3',
-      flexDirection: 'row',
-      justifyContent: 'space-evenly'
     },
     image: {
       width: 50,
