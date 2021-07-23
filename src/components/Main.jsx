@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+import { Route, Switch, Redirect } from 'react-router';
+
 import RepositoryList from './RepositoryList';
 import AppBar from './AppBar';
 
@@ -15,12 +17,12 @@ const styles = StyleSheet.create({
 
 const Main = () => {
     return (
-        <>
+        <View style={styles.container}>
             <AppBar/>
             <View style={styles.container}>
                 <RepositoryList/>
             </View>
-        </>
+        </View>
     );
 };
 

@@ -4,8 +4,6 @@ import Text from '../Text';
 
 const styles = StyleSheet.create({
      headings: {
-        flex: 1,
-        flexBasis: 350,
         alignItems: 'flex-start'
      },
      headingRow: {
